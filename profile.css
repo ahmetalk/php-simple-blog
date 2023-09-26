@@ -1,0 +1,54 @@
+/* Apply a small margin to the body */
+body {
+    margin: 20px;
+    text-align: center; /* Center text in the body */
+    font-family: 'Inconsolata', monospace;
+}
+
+/* Center the "Welcome" heading */
+h1 {
+    text-align: center;
+}
+
+/* Center the content on the page */
+p, h2 {
+    text-align: center;
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 600px; /* Adjust the width as needed */
+}
+
+/* Style the user information */
+p {
+    margin-top: 10px;
+}
+
+/* Style the user's posts */
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: left;
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center posts horizontally */
+}
+
+/* Style the post titles */
+.post h3 {
+    text-align: center; /* Center post titles */
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the "Back to Homepage" link */
+p a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Add any additional styles you need */

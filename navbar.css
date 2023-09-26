@@ -1,0 +1,31 @@
+/* Style the navigation menu */
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Center the menu horizontally */
+    font-family: 'Inconsolata', monospace;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin-right: 10px; /* Add some spacing between menu items */
+}
+
+.navbar-item:last-child {
+    margin-right: 0; /* Remove margin from the last menu item */
+}
+
+/* Customize the appearance of links */
+.navbar-item a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    padding: 5px 10px; /* Add padding to the links */
+    border: 1px solid #007bff; /* Add a border */
+    border-radius: 4px; /* Add rounded corners */
+}
+
+/* Style links on hover */
+.navbar-item a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}

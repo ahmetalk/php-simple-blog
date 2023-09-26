@@ -1,0 +1,49 @@
+/* Apply a small margin to the body */
+body {
+    margin: 20px;
+    text-align: center; /* Center text in the body */
+    font-family: 'Inconsolata', monospace;
+}
+
+/* Center the content on the page */
+h1, p, form {
+    text-align: center;
+    margin: 0 auto; /* Center content horizontally */
+    max-width: 400px; /* Adjust the width as needed */
+}
+
+/* Style form elements */
+label {
+    display: block; /* Place labels on their own line */
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the "Back to Homepage" link */
+p a {
+    display: inline-block;
+    margin-top: 20px;
+}

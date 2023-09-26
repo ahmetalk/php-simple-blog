@@ -1,0 +1,79 @@
+/* Apply a small margin to the body */
+body {
+    margin: 20px;
+    text-align: center; /* Center text in the body */
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+/* Center the "Recent Posts" heading */
+h1 {
+    text-align: center;
+}
+
+/* Center the content on the page */
+h2, p, .post {
+    text-align: center;
+}
+
+/* Center the form */
+form {
+    margin: 0 auto;
+    max-width: 400px; /* Adjust the width as needed */
+}
+
+/* Style form elements */
+label {
+    display: block; /* Place labels on their own line */
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Style the "Back to Homepage" link */
+p a {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Style individual posts */
+.post {
+    margin: 20px auto; /* Center each post and add spacing */
+    max-width: 600px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Style horizontal rule */
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px auto; /* Center the horizontal rule */
+    max-width: 80%; /* Adjust the width as needed */
+}
+
